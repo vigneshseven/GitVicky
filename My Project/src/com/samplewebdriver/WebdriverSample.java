@@ -18,6 +18,6 @@ public class WebdriverSample {
 		WebDriver driver = new FirefoxDriver(option);
 		
 		driver.get("https://vdrhotfix.sterlingdatarooms.com/SterlingVDR/Login.aspx");
-		driver.close();
+		driver.close(); //Changes
 	}
 }
